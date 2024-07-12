@@ -1,0 +1,63 @@
+<LinearLayout android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cardview_light_background"
+    android:padding="50px">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:text="Reset password"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password :"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/baseline_keyboard_arrow_right_24"
+        android:hint="enter password"
+        android:id="@+id/pass"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm Password :"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter password"
+        android:drawableLeft="@drawable/baseline_keyboard_double_arrow_right_24"
+        android:inputType="textPassword"
+        android:id="@+id/cpass"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="reset"
+        android:background="#B0BCFA"
+        android:layout_margin="20px"
+        android:id="@+id/reset"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="back to login"
+        android:background="#E9A1A1"
+        android:layout_margin="10px"
+        android:id="@+id/back"/>
+
+</LinearLayout>

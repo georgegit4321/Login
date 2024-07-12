@@ -1,0 +1,64 @@
+<LinearLayout android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cardview_shadow_end_color"
+    android:padding="50px">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:text="Sign In"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User name :"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter user name"
+        android:drawableLeft="@drawable/baseline_man_24"
+        android:id="@+id/name"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password :"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter password"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/baseline_key_24"
+        android:id="@+id/pass"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="login"
+        android:background="#E9A1A1"
+        android:layout_margin="20px"
+        android:id="@+id/login"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="forgot password"
+        android:textAlignment="textEnd"
+        android:textAllCaps="false"
+        android:background="@color/cardview_shadow_end_color"
+        android:layout_margin="20px"
+        android:id="@+id/forgot"/>
+
+</LinearLayout>
